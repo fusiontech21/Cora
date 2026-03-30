@@ -1,1 +1,4 @@
 /target
+/imgs
+src/main
+Cargo.lock
