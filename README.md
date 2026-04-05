@@ -1,6 +1,6 @@
 # Cora 🦀
 
-[![License](https://img.shields.io/badge/License-GPL--3.0-blue)](https://www.gnu.org/licenses/agpl-3.0.html)
+[![License](https://img.shields.io/badge/License-GPL--3.0-blue)](https://www.gnu.org/licenses/gpl-3.0.html)
 [![Made with](https://img.shields.io/badge/Made%20with-Rust-orange)](https://rust-lang.org)
 [![Built for](https://img.shields.io/badge/Built%20for-Arch%20Based%20Distros-cyan)](https://archlinux.org)
 
@@ -74,4 +74,4 @@ This project is licensed under the **GPL-3.0** license. See [LICENSE](LICENSE) f
 
 ---
 
-© 2025 fusiontech21 — All rights reserved
+© 2026 fusiontech21 — All rights reserved
