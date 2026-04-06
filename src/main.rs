@@ -138,7 +138,7 @@ fn main() {
 
         // show packages from aur
         "foreign" => run(false, vec!["pacman", "-Qm"]),
-        
+
         // reinstall a package
         "reinstall"  => {
             let mut a = vec!["pacman", "-S"];
@@ -155,9 +155,9 @@ fn main() {
                 });
                 let mut a = vec![hlpr, "-S"];
                 for p in &args[1..] { a.push(p.as_str()); }
-                run(false, a); 
+                run(false, a);
             }
-        
+
         // updates a pkg from aur
         "aur-update" => {
             let hlpr = hasaurhelper().unwrap_or_else(|| {
@@ -241,7 +241,7 @@ fn main() {
         }
         std::process::exit(0);
         }
-        
+
         // FUN
         "secret" => {
             let txt = "You are secretly a Femboy";
@@ -251,7 +251,7 @@ fn main() {
         // cora details
         "details" => {
             println!("{}", r#"
-                ██████╗ ██████╗ ██████╗  █████╗ 
+                ██████╗ ██████╗ ██████╗  █████╗
                ██╔════╝██╔═══██╗██╔══██╗██╔══██╗
                ██║     ██║   ██║██████╔╝███████║
                ██║     ██║   ██║██╔══██╗██╔══██║
